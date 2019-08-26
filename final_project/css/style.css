@@ -1,0 +1,68 @@
+/* This is where we will be writing all of your styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates:300,400,500,600,700&display=swap');
+
+body {
+  background-color: #e0e0eb;
+  color: #ffffff;
+  font-family: "montserrat", sans-serif;
+}
+
+ h1 {
+   text-align: left;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-size: 40px;
+   padding: 30px;
+   margin-bottom: 40px;
+ }
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 26px;
+  font-weight: 500;
+  padding: 30px;
+}
+
+p {
+  letter-spacing: normal;
+  font-size: 14px;
+  width: 500px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.first {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.second {
+  text-align: right;
+  padding: 30px;
+}
+
+#right {
+  text-align: right;
+  padding: 30px;
+}
+
+img {
+  display: block;
+  margin: 40px auto;
+  clip: rect(0px,60px,200px,0px);
+}
